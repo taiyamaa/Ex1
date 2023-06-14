@@ -15,6 +15,12 @@ class dice{
     System.out.println("Die 1 :" + a );
     System.out.println("Die 2 :" + b );
     int c=(a+b);
-    System.out.println("Total value:" + c);  
+    System.out.println("Total value:" + c);
+    if(c>=7){
+	System.out.println("you won");
+    }
+    else{
+       	System.out.println("you lost");
+    }
 }  
 }
