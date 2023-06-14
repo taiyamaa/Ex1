@@ -23,10 +23,10 @@ Scanner scanner = new Scanner(System.in);
     int c=(a+b);
     System.out.println("Total value:" + c);
     if(c>=7){
-	System.out.println("you won");
+	System.out.println(name+ " won");
     }
     else{
-       	System.out.println("you lost");
+       	System.out.println(name+" lost");
     }
 }  
 }
